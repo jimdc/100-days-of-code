@@ -18,8 +18,16 @@
 
 ### Day 2: March 28, 2018
 
-**Today's Progress**: Gendered-pronouns work in practice, scaffolding for multiple-choice.
+**Today's Progress:** Gendered-pronouns work in practice, scaffolding for multiple-choice.
 
-**Thoughts:**: I wonder if I should have dummy HTML test pages (with dynamically generated content in similarly-named classes) to test this script? Because I couldn't this external service to serve me a certain type of question. 
+**Thoughts:** I wonder if I should have dummy HTML pages, serving dynamic content in similar classes to test this script? Because I couldn't *even* with this external service to serve me a certain type of question. 
 
 **Link to work:** [gender-reveal](https://github.com/jimdc/gender-reveal)
+
+### Day 3: March 29, 2018
+
+**Today's Progress:** Walked through "[create a quiz with react](https://mitchgavan.com/react-quiz/)". 
+
+**Thoughts:** The concept of props and state is still shaky to me, but I loved seeing how the modularity made it easy to refactor.
+
+**Link to work:** [translate-jokes](https://github.com/jimdc/translate-jokes)
