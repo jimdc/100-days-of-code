@@ -31,3 +31,11 @@
 **Thoughts:** The concept of props and state is still shaky to me, but I loved seeing how the modularity made it easy to refactor.
 
 **Link to work:** [translate-jokes](https://github.com/jimdc/translate-jokes)
+
+### Day 4: March 30, 2018
+
+**Today's Progress:** Fixed bug in gender-reveal where source language prompts were colored according to target language pronouns.
+
+**Thoughts:** I'm starting to miss static type checking. Starting to wonder about profiling this script's memory usage (is a 100ms recurring timeout expensive?)
+
+**Link to work:** [gender-reveal issue #2](https://github.com/jimdc/gender-reveal/issues/2)
