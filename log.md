@@ -39,3 +39,11 @@
 **Thoughts:** I'm starting to miss static type checking. Starting to wonder about profiling this script's memory usage (is a 100ms recurring timeout expensive?)
 
 **Link to work:** [gender-reveal issue #2](https://github.com/jimdc/gender-reveal/issues/2)
+
+### Day 5: March 31, 2018
+
+**Today's Progress:** Configured a toy React project without using `create-react-app`
+
+**Thoughts:** I'm curious about how express.js is used here.
+
+**Link to work:** [personal-website](https://github.com/jimdc/personal-website)
