@@ -47,3 +47,11 @@
 **Thoughts:** I'm curious about how express.js is used here.
 
 **Link to work:** [personal-website](https://github.com/jimdc/personal-website)
+
+### Day 6: April 1, 2018
+
+**Today's Progress:** Sort-of deployed personal-website to Heroku. 
+
+**Thoughts:** More like 100-days-of-configuration-hell. Learning difference between `dependencies` and `devDependencies` in `npm`. I probably should know better how `webpack` works. Is using both `npm` and `yarn` bad? Which differences should I maintain between the development and production builds? Deployment is hard.
+
+**Link to work:** [geren-wangzhan](http://geren-wangzhan.herokuapp.com/)
