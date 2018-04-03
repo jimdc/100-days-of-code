@@ -62,4 +62,12 @@
 
 **Thoughts:** The most interesting topics to me were: anonymous functions, immediately invoked functional expressions, `let` and `const`, objects, closures
 
-**Link to work:** Well, it gave me an idea for [an enhancement](https://github.com/jimdc/gender-reveal/issues/3) to gender-reveal.
+**Link to work:** It gave me an idea for [an enhancement](https://github.com/jimdc/gender-reveal/issues/3) to gender-reveal.
+
+## Day 8: April 3, 2018
+
+**Today's Progress:** Mocked up a Node CLI app for transcription into Chinese.
+
+**Thoughts:** I'm eager to learn about unit testing in node. Also, is there a dobule-metaphone that makes working with IPA, or just in general, easier? If not, I see an opportunity for my first npm module.
+
+**Link to work:** https://github.com/jimdc/transcribe-en-to-zh
