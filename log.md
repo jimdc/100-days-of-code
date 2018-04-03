@@ -55,3 +55,11 @@
 **Thoughts:** More like 100-days-of-configuration-hell. Learning difference between `dependencies` and `devDependencies` in `npm`. I probably should know better how `webpack` works. Is using both `npm` and `yarn` bad? Which differences should I maintain between the development and production builds? Deployment is hard.
 
 **Link to work:** [geren-wangzhan](http://geren-wangzhan.herokuapp.com/)
+
+### Day 7: April 2, 2018
+
+**Today's Progress:** Watched a JavaScript tutorial.
+
+**Thoughts:** The most interesting topics to me were: anonymous functions, immediately invoked functional expressions, `let` and `const`, objects, closures
+
+**Link to work:** Well, it gave me an idea for [an enhancement](https://github.com/jimdc/gender-reveal/issues/3) to gender-reveal.
