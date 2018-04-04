@@ -71,3 +71,11 @@
 **Thoughts:** I'm eager to learn about unit testing in node. Also, is there a dobule-metaphone that makes working with IPA, or just in general, easier? If not, I see an opportunity for my first npm module.
 
 **Link to work:** https://github.com/jimdc/transcribe-en-to-zh
+
+## Day 9: April 4, 2018
+
+**Today's Progress:** Updated some existing code to ES6 and TypeScript; fixed a timeout redundancy issue
+
+**Thoughts:** 100-days-of-build-tool-bamboozle. I'm beginning to really enjoy npm's `package.json` system; next I would like to know how to `scripts` within it, and I still have trouble figuring out the deal with live monitoring for file changes. TypeScript is quite comfy.
+
+**Link to work:** (diffs) [TypeScript](https://github.com/jimdc/transcribe-en-to-zh/commit/40660824e6292a584fbc490712746c66c7849086), [issue](https://github.com/jimdc/gender-reveal/commit/e4f76ec00a5a792111881af54564a4eb6b39e021)
