@@ -79,3 +79,11 @@
 **Thoughts:** 100-days-of-build-tool-bamboozle. I'm beginning to really enjoy npm's `package.json` system; next I would like to know how to `scripts` within it, and I still have trouble figuring out the deal with live monitoring for file changes. TypeScript is quite comfy.
 
 **Link to work:** (diffs) [TypeScript](https://github.com/jimdc/transcribe-en-to-zh/commit/40660824e6292a584fbc490712746c66c7849086), [issue](https://github.com/jimdc/gender-reveal/commit/e4f76ec00a5a792111881af54564a4eb6b39e021)
+
+## Day 10: April 5, 2018
+
+**Today's Progress:** Added a mocha test to transcribe, start basic scraper rules
+
+**Thoughts:** Doesn't seem to be a great ready-made solution to convert metaphone to IPA, or english to IPA for that matter. Working with JSON is so pleasant.
+
+**Link to work:** (diff) [transcribe-en-to-zh](https://github.com/jimdc/transcribe-en-to-zh/commit/e50e2162a19861244603a9f4168a6e861257d2d2#diff-a091ca09d9fdc9eb5f89ae98eac72d05)
