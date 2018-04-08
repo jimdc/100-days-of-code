@@ -46,7 +46,7 @@
 
 **Thoughts:** I'm curious about how express.js is used here.
 
-**Link to work:** [personal-website](https://github.com/jimdc/personal-website)
+**Link to work:** [jimbo-scales](https://jimbo-scales.herokuapp.com/)
 
 ### Day 6: April 1, 2018
 
@@ -54,7 +54,7 @@
 
 **Thoughts:** More like 100-days-of-configuration-hell. Learning difference between `dependencies` and `devDependencies` in `npm`. I probably should know better how `webpack` works. Is using both `npm` and `yarn` bad? Which differences should I maintain between the development and production builds? Deployment is hard.
 
-**Link to work:** [geren-wangzhan](http://geren-wangzhan.herokuapp.com/)
+**Link to work:** [jimbo-scales](https://jimbo-scales.herokuapp.com/)
 
 ### Day 7: April 2, 2018
 
@@ -87,3 +87,19 @@
 **Thoughts:** Doesn't seem to be a great ready-made solution to convert metaphone to IPA, or english to IPA for that matter. Working with JSON is so pleasant.
 
 **Link to work:** (diff) [transcribe-en-to-zh](https://github.com/jimdc/transcribe-en-to-zh/commit/e50e2162a19861244603a9f4168a6e861257d2d2#diff-a091ca09d9fdc9eb5f89ae98eac72d05)
+
+## Day 11: April 6, 2018
+
+**Today's Progress:** Started integrating `transcribe.ts` and `scrape.ts` in `transcribe-en-to-zh`
+
+**Thoughts:** With the rulebuilder it doesn't matter, but I wanted to use node 8's [util.promisify](https://hackernoon.com/node8s-util-promisify-is-so-freakin-awesome-1d90c184bf44) to read the json rules file asynchronously in `ChineseSound.ts`, with a view towards when this is a non-cli based webapp.
+
+**Link to work:** [diff](https://github.com/jimdc/transcribe-en-to-zh/commit/f45b028b20c2ab96b9de86ee5450715cfe69c745)
+
+## Day 12: April 7, 2018
+
+**Today's Progress:**
+
+**Thoughts:**
+
+**Link to work:** 
