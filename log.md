@@ -98,8 +98,16 @@
 
 ## Day 12: April 7, 2018
 
-**Today's Progress:**
+**Today's Progress:** start to recreate WeKorrektor in create-react-native?
 
 **Thoughts:**
 
 **Link to work:** 
+
+## Day 13: April 8, 2018
+
+**Today's Progress:** recreate personal-website to use Gatsby? (for that sweet, sweet SEO)
+
+**Thoughts:**
+
+**Link to work:**
