@@ -119,3 +119,11 @@
 **Thoughts:** I really appreciated being able to run `npm test` after every refactor to make sure that previous functionality didn't break either. TDD is awesome, and the way I did things beforehand seems unbearably tedious now.
 
 **Link to work:** (diffs) [failing test](https://github.com/jimdc/transcribe-en-to-zh/commit/69a5d10fd2e46b1d16b9890ab56c07473805ecdb) [code to pass test](https://github.com/jimdc/transcribe-en-to-zh/commit/563b26f7eabdbb2fe5616fc832ce4b7ea1ab8148)
+
+## Day 15: April 10, 2018
+
+**Today's Progress:** Fixed 1/2 of rowspan (the expanded entry but not its followers) using TDD
+
+**Thoughts:** Keeping track of all these indices is becoming tedious; more like "real work" than a fun side project to learn new technology. I'm also running into certain conceptual problems that arise from the fact that I'm dealing with `each()` callbacks instead of loops, which I am more used to; so some of the scoping issues are mystifying. It's probably time to make `scrape.ts`'s table-building function more modular.
+
+**Link to work:** [failing test](https://github.com/jimdc/transcribe-en-to-zh/commit/0515d0c1cadc05a3fc6bb1a249cded1f18db0d24), [partial success](https://github.com/jimdc/transcribe-en-to-zh/commit/136ba12f367063309903453a1f3f1b4a96c5edb7)
