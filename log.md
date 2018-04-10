@@ -98,16 +98,24 @@
 
 ## Day 12: April 7, 2018
 
-**Today's Progress:** start to recreate WeKorrektor in create-react-native?
+**Today's Progress:** migrated personal website from [Jekyll](https://github.com/jekyll/jekyll) to [Gatsby](https://www.gatsbyjs.org/)
 
-**Thoughts:**
+**Thoughts:** Looks like I'll have to add some text paragraphs with some outlinks, because if Javascript is disabled, font-awesome social icon placeholders are just asterisks. But redundancy is OK, since part of the idea of a progressive web app is to make your own navigation interface. Ended up learning some stuff about git, like how to revert to a previous branch, from when this migration went wrong.
 
-**Link to work:** 
+**Link to work:** http://www.jamesdcarroll.me/
 
 ## Day 13: April 8, 2018
 
-**Today's Progress:** recreate personal-website to use Gatsby? (for that sweet, sweet SEO)
+**Today's Progress:** Got pronoun color functionality up in gender-reveal
 
-**Thoughts:**
+**Thoughts:** I also tried to [do class-based coloring](https://github.com/jimdc/gender-reveal/issues/4) based on a pure JavaScript solution, which failed because for some security reasons, Greasemonkey [has its own ways](https://stackoverflow.com/posts/19392142/revisions) of adding to the global CSS, which I will continue next time, along with the GM_setValue() stuff.
 
-**Link to work:**
+**Link to work:** (diffs to visible progress) [1](https://github.com/jimdc/gender-reveal/commit/7f48e29f2c0958a627bb02b2e1a7aae66d7da035) [2](https://github.com/jimdc/gender-reveal/commit/f8d00d30507b0c3e597277cf730cabfa90905f56)
+
+## Day 14: April 9, 2018
+
+**Today's Progress:** TDD approach to fixing colspan (soon: rowspan) in `transcribe-en-to-zh`
+
+**Thoughts:** I really appreciated being able to run `npm test` after every refactor to make sure that previous functionality didn't break either. TDD is awesome, and the way I did things beforehand seems unbearably tedious now.
+
+**Link to work:** (diffs) [failing test](https://github.com/jimdc/transcribe-en-to-zh/commit/69a5d10fd2e46b1d16b9890ab56c07473805ecdb) [code to pass test](https://github.com/jimdc/transcribe-en-to-zh/commit/563b26f7eabdbb2fe5616fc832ce4b7ea1ab8148)
