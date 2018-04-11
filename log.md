@@ -127,3 +127,11 @@
 **Thoughts:** Keeping track of all these indices is becoming tedious; more like "real work" than a fun side project to learn new technology. I'm also running into certain conceptual problems that arise from the fact that I'm dealing with `each()` callbacks instead of loops, which I am more used to; so some of the scoping issues are mystifying. It's probably time to make `scrape.ts`'s table-building function more modular.
 
 **Link to work:** [failing test](https://github.com/jimdc/transcribe-en-to-zh/commit/0515d0c1cadc05a3fc6bb1a249cded1f18db0d24), [partial success](https://github.com/jimdc/transcribe-en-to-zh/commit/136ba12f367063309903453a1f3f1b4a96c5edb7)
+
+## Day 16: April 11, 2018
+
+**Today's Progress:** Fell in love with Python again.
+
+**Thoughts:** The only other thing to do for this program to be useful to me personally, would be to add support for (1) multiple file-in and file-out; (2) returning status code back to stdout to chain as part of shell script; and (3) giving rules and resume files as command-line arguments
+
+**Link to work:** [resume-anonymizer](https://github.com/jimdc/resume-anonymizer)
