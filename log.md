@@ -135,3 +135,7 @@
 **Thoughts:** The only other thing to do for this program to be useful to me personally, would be to add support for (1) multiple file-in and file-out; (2) returning status code back to stdout to chain as part of shell script; and (3) giving rules and resume files as command-line arguments
 
 **Link to work:** [resume-anonymizer](https://github.com/jimdc/resume-anonymizer)
+
+## Day 17: April 12, 2018
+
+**Today's Progress:** Converted HTML scrape to Retrofit/RXJava.Single (closed source, Kotlin) 
