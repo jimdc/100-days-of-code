@@ -139,3 +139,11 @@
 ## Day 17: April 12, 2018
 
 **Today's Progress:** Converted HTML scrape to Retrofit/RXJava.Single (closed source, Kotlin) 
+
+## Day 18: April 13, 2018
+
+**Today's Progress:** Started my first Go program
+
+**Thoughts:** It feels new and familiar at the same time. Amazing. Hope I can find some way to use goroutines here, or at least the reflection capability to automatically parse objects to JSON/XML/whatever. 
+
+**Link to work:** [caffgraph/halflife.go](https://github.com/jimdc/caffgraph/blob/master/halflife.go)
