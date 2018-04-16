@@ -155,3 +155,12 @@
 **Thoughts:** I really like that Go gives me an error if I declare an import or a variable without using it. Reminds me about a feature I might have stopped implementing in the middle of wanting to implement another feature. Might have to make this into a package situation soon. `defer` is interesting. SVG is great: what's not to love about human-readable image format that lets you use existing CSS knowledge?
 
 **Link to work:** [caffgraph diff](https://github.com/jimdc/caffgraph/commit/1b8cfd5360558dc6f5bdfe179bb4103a04289a30#diff-a8b6c9f79d0e30a8c9781f60764610ba)
+
+# Day 20: April 15, 2018
+
+**Today's Progress:** `caffgraph`'s `halflife.go` now writes to file
+
+**Thoughts:** d3 might not mind if the csv entries are not in chronological order, so trying out *nonblocking* concurrency next might be cool. Reading existing input and integrating the new entries would be harder, which is why I wanted to automate feeding it info from `stdin`, but actually it might be much simpler to do with command line switches.
+
+**Link to work:** [caffgraph diff](https://github.com/jimdc/caffgraph/commit/d83f59ec9ee612a7d08008c9f5407c633fec4d06#diff-a8b6c9f79d0e30a8c9781f60764610ba)
+
