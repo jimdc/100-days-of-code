@@ -147,3 +147,11 @@
 **Thoughts:** It feels new and familiar at the same time. Amazing. Hope I can find some way to use goroutines here, or at least the reflection capability to automatically parse objects to JSON/XML/whatever. 
 
 **Link to work:** [caffgraph/halflife.go](https://github.com/jimdc/caffgraph/blob/master/halflife.go)
+
+## Day 19: April 14, 2018
+
+**Today's Progress:** Started frontend for `caffgraph`, continuing with Go
+
+**Thoughts:** I really like that Go gives me an error if I declare an import or a variable without using it. Reminds me about a feature I might have stopped implementing in the middle of wanting to implement another feature. Might have to make this into a package situation soon. `defer` is interesting. SVG is great: what's not to love about human-readable image format that lets you use existing CSS knowledge?
+
+**Link to work:** [caffgraph diff](https://github.com/jimdc/caffgraph/commit/1b8cfd5360558dc6f5bdfe179bb4103a04289a30#diff-a8b6c9f79d0e30a8c9781f60764610ba)
