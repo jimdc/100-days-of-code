@@ -164,3 +164,10 @@
 
 **Link to work:** [caffgraph diff](https://github.com/jimdc/caffgraph/commit/d83f59ec9ee612a7d08008c9f5407c633fec4d06#diff-a8b6c9f79d0e30a8c9781f60764610ba)
 
+# Day 21: April 16, 2018
+
+**Today's Progress:** `caffgraph` uses flags, starting csv-to-json transition
+
+**Thoughts:** D3.js: hard to debug. I've been spoiled by Node. Go's error messages are really good too. Marshalling JSON manually is really cool because of reflection in Go and all, but I think it's too tedious when time is precious. Still don't know how to deal with two overlapping lines, when those lines represent remnants. Well, first I will focus on drawing the overlap, and maybe there can be a programmatic toggle whereby they are combined.
+
+**Link to work:** [diff](https://github.com/jimdc/caffgraph/blob/1150d793a7ce534ec3f9e209461928a9831165f7/halflife.go#L1)
