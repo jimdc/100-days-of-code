@@ -171,3 +171,11 @@
 **Thoughts:** D3.js: hard to debug. I've been spoiled by Node. Go's error messages are really good too. Marshalling JSON manually is really cool because of reflection in Go and all, but I think it's too tedious when time is precious. Still don't know how to deal with two overlapping lines, when those lines represent remnants. Well, first I will focus on drawing the overlap, and maybe there can be a programmatic toggle whereby they are combined.
 
 **Link to work:** [diff](https://github.com/jimdc/caffgraph/blob/1150d793a7ce534ec3f9e209461928a9831165f7/halflife.go#L1)
+
+# Day 22: April 17, 2018
+
+**Today's Progress:** Enabled standard json.Unmarshal, used `gofmt`
+
+**Thoughts:** json.Unmarshal was silently failing at first because the struct members were not visible to `encoding/json` because, like, `remnant` wasn't named `Remnant` and so forth. It couldn't have returned some kind of error to indicate that an empty struct is probably not what you want? Next, I think it would be good to define a test case for the desired behavior in the event that it encounters an overlapping dose. Also, instead of overwriting it should append. 
+
+**Link to work:** [new halflife.go](https://github.com/jimdc/caffgraph/blob/8990d4566b3c0753139cddfa9ae1aea334d573f7/halflife.go)
