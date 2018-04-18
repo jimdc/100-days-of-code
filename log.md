@@ -179,3 +179,11 @@
 **Thoughts:** json.Unmarshal was silently failing at first because the struct members were not visible to `encoding/json` because, like, `remnant` wasn't named `Remnant` and so forth. It couldn't have returned some kind of error to indicate that an empty struct is probably not what you want? Next, I think it would be good to define a test case for the desired behavior in the event that it encounters an overlapping dose. Also, instead of overwriting it should append. 
 
 **Link to work:** [new halflife.go](https://github.com/jimdc/caffgraph/blob/8990d4566b3c0753139cddfa9ae1aea334d573f7/halflife.go)
+
+# Day 23: April 18, 2018
+
+**Today's Progress:** Formally do not write csv (d3 still reads it for now), optimize for json
+
+**Thoughts:** Added a ["table test"](https://github.com/jimdc/caffgraph/blob/master/halflife_test.go) to `halflife_test.go` but can't go as far as to mock json because of the hardcoded marshaling; it's time now, after all this prototyping, to abstract things away into interfaces! The problem of multiple doses, and then overlapping doses, is staring me in the face. Maybe I could add an additional json object to eharray that is separate from the dose; which is "substance" that contains remnants? Because remnants are not necessarily connected to a specific dose but rather to a general body state. Maybe better to have both a global substance remnant and local dose remnant...
+
+**Link to work:** [new halflife.go](https://github.com/jimdc/caffgraph/blob/dda979c90a39f4d75164884260cb1ab592347b53/halflife.go)
