@@ -187,3 +187,11 @@
 **Thoughts:** Added a ["table test"](https://github.com/jimdc/caffgraph/blob/master/halflife_test.go) to `halflife_test.go` but can't go as far as to mock json because of the hardcoded marshaling; it's time now, after all this prototyping, to abstract things away into interfaces! The problem of multiple doses, and then overlapping doses, is staring me in the face. Maybe I could add an additional json object to eharray that is separate from the dose; which is "substance" that contains remnants? Because remnants are not necessarily connected to a specific dose but rather to a general body state. Maybe better to have both a global substance remnant and local dose remnant...
 
 **Link to work:** [new halflife.go](https://github.com/jimdc/caffgraph/blob/dda979c90a39f4d75164884260cb1ab592347b53/halflife.go)
+
+# Day 24: April 19, 2018
+
+**Today's Progress:** resume-anonymizer accepts multiple input files
+
+**Thoughts:** All these languages not having ternary operators as a deliberate design decision... does it mean that my thinking is wrong when I want them? :/ specifically with wanting, like, `print("somethingsomething was a " + success ? "success" : "failure")`
+
+**Link to work:** [diff](https://github.com/jimdc/resume-anonymizer/commit/49edfe8b41d881e7a4c5c4b1a58eadc87db3df79#diff-6a7317396b2b56b9caef0db8b041a90f)
