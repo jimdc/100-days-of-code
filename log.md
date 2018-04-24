@@ -195,3 +195,11 @@
 **Thoughts:** All these languages not having ternary operators as a deliberate design decision... does it mean that my thinking is wrong when I want them? :/ specifically with wanting, like, `print("somethingsomething was a " + success ? "success" : "failure")`
 
 **Link to work:** [diff](https://github.com/jimdc/resume-anonymizer/commit/49edfe8b41d881e7a4c5c4b1a58eadc87db3df79#diff-6a7317396b2b56b9caef0db8b041a90f)
+
+# Day 25: April 20, 2018
+
+**Today's Progress:** Made basic caffgraph server, to eventually have web interface for adding data points.
+
+**Thoughts:** It made me think about the organization of projects with multiple `go` files; and my project might be at the point now where it is better to use `go build` instead of `go run`. I couldn't do `go run dose.go server/*.go` because it wanted all my `go` files in the same directory, but I want to share `dose.go` between command-line and server application...
+
+**Link to work:** [diff](https://github.com/jimdc/caffgraph/commit/9f402c58812c6e8be772241615a1e61bb3bc87f3)
