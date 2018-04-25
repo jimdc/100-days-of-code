@@ -211,3 +211,28 @@
 **Thoughts:** Learned something about Go's standard directory structure, `env` variables, and `bash_profile`. Still confused about how to serve a static HTML file on this web server.
 
 **Link to work:** [caffgraph](https://caffgraph.herokuapp.com/doses)
+
+# Day 27: April 22, 2018
+
+**Today's Progress:** Caffgraph online serves static HTML too
+
+**Thoughts:** OK, I'm completely sold on continuous integration now. All of these repetitive command line incantations to test something that reacts differently (as it did when wanting a more `./`-included filename on the web server, but my own machine was OK with leaving it implied) is not only tedious but error-prone.
+
+**Link to work:** [Shows table of 2 init entries](https://caffgraph.herokuapp.com/test)
+
+# Day 28: April 23, 2018
+
+**Today's Progress:** Reactive input validation: just empty check for now
+
+**Thoughts:** Slowly becoming more comfortable with writing RxJava chains. 
+
+**Link to work:** [gist](https://gist.github.com/jimdc/6294998a303ffc4dee9376a50c808bf2)
+
+# Day 29: April 24, 2018
+
+**Today's Progress:** resume-anonymizer accepts custom rules
+
+**Thoughts:** argparse is sweet, sweet candy
+
+**Link to work:** [diff](https://github.com/jimdc/resume-anonymizer/commit/39b45fd7cf6c0fdfddfd1f58bcd5a22e0764ecab)
+
