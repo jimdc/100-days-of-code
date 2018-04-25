@@ -203,3 +203,11 @@
 **Thoughts:** It made me think about the organization of projects with multiple `go` files; and my project might be at the point now where it is better to use `go build` instead of `go run`. I couldn't do `go run dose.go server/*.go` because it wanted all my `go` files in the same directory, but I want to share `dose.go` between command-line and server application...
 
 **Link to work:** [diff](https://github.com/jimdc/caffgraph/commit/9f402c58812c6e8be772241615a1e61bb3bc87f3)
+
+# Day 26: April 21, 2018
+
+**Today's Progress:** Deployed server part of caffgraph to Heroku
+
+**Thoughts:** Learned something about Go's standard directory structure, `env` variables, and `bash_profile`. Still confused about how to serve a static HTML file on this web server.
+
+**Link to work:** [caffgraph](https://caffgraph.herokuapp.com/doses)
