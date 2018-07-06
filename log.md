@@ -64,7 +64,7 @@
 
 **Link to work:** It gave me an idea for [an enhancement](https://github.com/jimdc/gender-reveal/issues/3) to gender-reveal.
 
-## Day 8: April 3, 2018
+### Day 8: April 3, 2018
 
 **Today's Progress:** Mocked up a Node CLI app for transcription into Chinese.
 
@@ -72,7 +72,7 @@
 
 **Link to work:** https://github.com/jimdc/transcribe-en-to-zh
 
-## Day 9: April 4, 2018
+### Day 9: April 4, 2018
 
 **Today's Progress:** Updated some existing code to ES6 and TypeScript; fixed a timeout redundancy issue
 
@@ -80,7 +80,7 @@
 
 **Link to work:** (diffs) [TypeScript](https://github.com/jimdc/transcribe-en-to-zh/commit/40660824e6292a584fbc490712746c66c7849086), [issue](https://github.com/jimdc/gender-reveal/commit/e4f76ec00a5a792111881af54564a4eb6b39e021)
 
-## Day 10: April 5, 2018
+### Day 10: April 5, 2018
 
 **Today's Progress:** Added a mocha test to transcribe, start basic scraper rules
 
@@ -88,7 +88,7 @@
 
 **Link to work:** (diff) [transcribe-en-to-zh](https://github.com/jimdc/transcribe-en-to-zh/commit/e50e2162a19861244603a9f4168a6e861257d2d2#diff-a091ca09d9fdc9eb5f89ae98eac72d05)
 
-## Day 11: April 6, 2018
+### Day 11: April 6, 2018
 
 **Today's Progress:** Started integrating `transcribe.ts` and `scrape.ts` in `transcribe-en-to-zh`
 
@@ -96,7 +96,7 @@
 
 **Link to work:** [diff](https://github.com/jimdc/transcribe-en-to-zh/commit/f45b028b20c2ab96b9de86ee5450715cfe69c745)
 
-## Day 12: April 7, 2018
+### Day 12: April 7, 2018
 
 **Today's Progress:** migrated personal website from [Jekyll](https://github.com/jekyll/jekyll) to [Gatsby](https://www.gatsbyjs.org/)
 
@@ -104,7 +104,7 @@
 
 **Link to work:** http://www.jamesdcarroll.me/
 
-## Day 13: April 8, 2018
+### Day 13: April 8, 2018
 
 **Today's Progress:** Got pronoun color functionality up in gender-reveal
 
@@ -112,7 +112,7 @@
 
 **Link to work:** (diffs to visible progress) [1](https://github.com/jimdc/gender-reveal/commit/7f48e29f2c0958a627bb02b2e1a7aae66d7da035) [2](https://github.com/jimdc/gender-reveal/commit/f8d00d30507b0c3e597277cf730cabfa90905f56)
 
-## Day 14: April 9, 2018
+### Day 14: April 9, 2018
 
 **Today's Progress:** TDD approach to fixing colspan (soon: rowspan) in `transcribe-en-to-zh`
 
@@ -120,7 +120,7 @@
 
 **Link to work:** (diffs) [failing test](https://github.com/jimdc/transcribe-en-to-zh/commit/69a5d10fd2e46b1d16b9890ab56c07473805ecdb) [code to pass test](https://github.com/jimdc/transcribe-en-to-zh/commit/563b26f7eabdbb2fe5616fc832ce4b7ea1ab8148)
 
-## Day 15: April 10, 2018
+### Day 15: April 10, 2018
 
 **Today's Progress:** Fixed 1/2 of rowspan (the expanded entry but not its followers) using TDD
 
@@ -128,7 +128,7 @@
 
 **Link to work:** [failing test](https://github.com/jimdc/transcribe-en-to-zh/commit/0515d0c1cadc05a3fc6bb1a249cded1f18db0d24), [partial success](https://github.com/jimdc/transcribe-en-to-zh/commit/136ba12f367063309903453a1f3f1b4a96c5edb7)
 
-## Day 16: April 11, 2018
+### Day 16: April 11, 2018
 
 **Today's Progress:** Fell in love with Python again.
 
@@ -136,11 +136,11 @@
 
 **Link to work:** [resume-anonymizer](https://github.com/jimdc/resume-anonymizer)
 
-## Day 17: April 12, 2018
+### Day 17: April 12, 2018
 
 **Today's Progress:** Converted HTML scrape to Retrofit/RXJava.Single (closed source, Kotlin) 
 
-## Day 18: April 13, 2018
+### Day 18: April 13, 2018
 
 **Today's Progress:** Started my first Go program
 
@@ -148,7 +148,7 @@
 
 **Link to work:** [caffgraph/halflife.go](https://github.com/jimdc/caffgraph/blob/master/halflife.go)
 
-## Day 19: April 14, 2018
+### Day 19: April 14, 2018
 
 **Today's Progress:** Started frontend for `caffgraph`, continuing with Go
 
@@ -156,7 +156,7 @@
 
 **Link to work:** [caffgraph diff](https://github.com/jimdc/caffgraph/commit/1b8cfd5360558dc6f5bdfe179bb4103a04289a30#diff-a8b6c9f79d0e30a8c9781f60764610ba)
 
-# Day 20: April 15, 2018
+### Day 20: April 15, 2018
 
 **Today's Progress:** `caffgraph`'s `halflife.go` now writes to file
 
@@ -164,7 +164,7 @@
 
 **Link to work:** [caffgraph diff](https://github.com/jimdc/caffgraph/commit/d83f59ec9ee612a7d08008c9f5407c633fec4d06#diff-a8b6c9f79d0e30a8c9781f60764610ba)
 
-# Day 21: April 16, 2018
+### Day 21: April 16, 2018
 
 **Today's Progress:** `caffgraph` uses flags, starting csv-to-json transition
 
@@ -172,7 +172,7 @@
 
 **Link to work:** [diff](https://github.com/jimdc/caffgraph/blob/1150d793a7ce534ec3f9e209461928a9831165f7/halflife.go#L1)
 
-# Day 22: April 17, 2018
+### Day 22: April 17, 2018
 
 **Today's Progress:** Enabled standard json.Unmarshal, used `gofmt`
 
@@ -180,7 +180,7 @@
 
 **Link to work:** [new halflife.go](https://github.com/jimdc/caffgraph/blob/8990d4566b3c0753139cddfa9ae1aea334d573f7/halflife.go)
 
-# Day 23: April 18, 2018
+### Day 23: April 18, 2018
 
 **Today's Progress:** Formally do not write csv (d3 still reads it for now), optimize for json
 
@@ -188,7 +188,7 @@
 
 **Link to work:** [new halflife.go](https://github.com/jimdc/caffgraph/blob/dda979c90a39f4d75164884260cb1ab592347b53/halflife.go)
 
-# Day 24: April 19, 2018
+### Day 24: April 19, 2018
 
 **Today's Progress:** resume-anonymizer accepts multiple input files
 
@@ -196,7 +196,7 @@
 
 **Link to work:** [diff](https://github.com/jimdc/resume-anonymizer/commit/49edfe8b41d881e7a4c5c4b1a58eadc87db3df79#diff-6a7317396b2b56b9caef0db8b041a90f)
 
-# Day 25: April 20, 2018
+### Day 25: April 20, 2018
 
 **Today's Progress:** Made basic caffgraph server, to eventually have web interface for adding data points.
 
@@ -204,7 +204,7 @@
 
 **Link to work:** [diff](https://github.com/jimdc/caffgraph/commit/9f402c58812c6e8be772241615a1e61bb3bc87f3)
 
-# Day 26: April 21, 2018
+### Day 26: April 21, 2018
 
 **Today's Progress:** Deployed server part of caffgraph to Heroku
 
@@ -212,7 +212,7 @@
 
 **Link to work:** [caffgraph](https://caffgraph.herokuapp.com/doses)
 
-# Day 27: April 22, 2018
+### Day 27: April 22, 2018
 
 **Today's Progress:** Caffgraph online serves static HTML too
 
@@ -220,7 +220,7 @@
 
 **Link to work:** [Shows table of 2 init entries](https://caffgraph.herokuapp.com/test)
 
-# Day 28: April 23, 2018
+### Day 28: April 23, 2018
 
 **Today's Progress:** Reactive input validation: just empty check for now
 
@@ -228,11 +228,19 @@
 
 **Link to work:** [gist](https://gist.github.com/jimdc/6294998a303ffc4dee9376a50c808bf2)
 
-# Day 29: April 24, 2018
+### Day 29: April 24, 2018
 
 **Today's Progress:** resume-anonymizer accepts custom rules
 
 **Thoughts:** argparse is sweet, sweet candy
 
 **Link to work:** [diff](https://github.com/jimdc/resume-anonymizer/commit/39b45fd7cf6c0fdfddfd1f58bcd5a22e0764ecab)
+
+### Day 30: July 6, 2018
+
+**Today's Progress:** start suffix analysis for es,fr on gender-reveal
+
+**Thoughts:** logic of ending analysis not started yet, also raises question of should I have the information of what the gender is in the variable itself (being an array) or as like a value in key,value
+
+**Link to work:** [diff](https://github.com/jimdc/gender-reveal/commit/43fa8722c71a245fb21df89c8f51a0ecc65e0e86)
 
