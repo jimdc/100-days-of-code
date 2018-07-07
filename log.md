@@ -244,3 +244,10 @@
 
 **Link to work:** [diff](https://github.com/jimdc/gender-reveal/commit/43fa8722c71a245fb21df89c8f51a0ecc65e0e86)
 
+### Day 31: July 7, 2018
+
+**Today's Progress:** made it so that recent changes did not crash the script and had old functionality
+
+**Thoughts:** it's a bit hard to rapidly iterate changes in userscript. if I can't cache invalidate refresh easily, maybe this is better as an extension? also, "Processing choice...xxx" shouldn't be there, and why is targLangSuffixes null.
+
+**Link to work:** [1](https://github.com/jimdc/gender-reveal/commit/db71f6d3d653377fc83827a4882ce83e5af1b4c0)[2](https://github.com/jimdc/gender-reveal/commit/827d6cee40840265f4b33d2d5fc571bde5871342)[3](https://github.com/jimdc/gender-reveal/commit/2581455887f589ea395ba050057f37beeeabb938)
