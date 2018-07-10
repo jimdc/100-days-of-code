@@ -251,3 +251,11 @@
 **Thoughts:** it's a bit hard to rapidly iterate changes in userscript. if I can't cache invalidate refresh easily, maybe this is better as an extension? also, "Processing choice...xxx" shouldn't be there, and why is targLangSuffixes null.
 
 **Link to work:** [1](https://github.com/jimdc/gender-reveal/commit/db71f6d3d653377fc83827a4882ce83e5af1b4c0)[2](https://github.com/jimdc/gender-reveal/commit/827d6cee40840265f4b33d2d5fc571bde5871342)[3](https://github.com/jimdc/gender-reveal/commit/2581455887f589ea395ba050057f37beeeabb938)
+
+### Day 32: July 8, 2018
+
+**Today's Progress:** added code for suffix analysis and it doesn't crash, though doesn't do anything apparently
+
+**Thoughts:** I do want to look into that function that I copied for javascript speed analysis, since my method for looking through all the endings and finding the longest one then locating its gender is... not the most efficient, but I do want to have numbers if it becomes an issue
+
+**Link to work:** [1](https://github.com/jimdc/gender-reveal/commit/e07e1019d359d908a340413a1aacdea8be4dc36b)[2](https://github.com/jimdc/gender-reveal/commit/efdb6ce431c7a2759e389baf1a1228eddc4544b4)[3](https://github.com/jimdc/gender-reveal/commit/42f117612914f80937d3ffa6850d171071ac7ef9)
