@@ -259,3 +259,11 @@
 **Thoughts:** I do want to look into that function that I copied for javascript speed analysis, since my method for looking through all the endings and finding the longest one then locating its gender is... not the most efficient, but I do want to have numbers if it becomes an issue
 
 **Link to work:** [1](https://github.com/jimdc/gender-reveal/commit/e07e1019d359d908a340413a1aacdea8be4dc36b)[2](https://github.com/jimdc/gender-reveal/commit/efdb6ce431c7a2759e389baf1a1228eddc4544b4)[3](https://github.com/jimdc/gender-reveal/commit/42f117612914f80937d3ffa6850d171071ac7ef9)
+
+### Day 33: September 30, 2018
+
+**Today's Progress:** forked a page to create [https://github.com/jimdc/gosu-is-like-kotlin gosu-is-like-kotlin]; created gs code for "basics" and "collections" sections.
+
+**Thoughts:** I think this will be a good reference at some point. Reading the spec seems tedious now, but I'm forced to when using it as a reference.
+
+**Link to work:** [1](https://github.com/jimdc/gosu-is-like-kotlin/commit/26529dd47db0ca23c3308a9102339156d13902c2)[2](https://github.com/jimdc/gosu-is-like-kotlin/commit/171704997523c32889dd6c8581cbf36b8eeb8b93)
